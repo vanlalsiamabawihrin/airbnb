@@ -1,0 +1,30 @@
+.searchPage__info {
+  padding: 20px;
+  width: 100%;
+}
+.searchPage__info > p {
+  margin: 10px;
+  font-size: 14px;
+  color: black;
+}
+.searchPage__info > button {
+  height: 30px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  margin: 5px;
+}
+.searchPage__info > h1 {
+  margin-bottom: 30px;
+}
+.searchPage__info > button:focus {
+  outline-width: 0;
+}
+.searchPage__info > button:hover {
+  background-color: rgb(209, 78, 100);
+  color: white;
+  cursor: pointer;
+}
